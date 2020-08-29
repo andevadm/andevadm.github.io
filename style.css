@@ -1,0 +1,121 @@
+/* Reset */
+
+* {
+	box-sizing: border-box;
+}
+
+html, body, div, span, h1, h2, p, dl, dt, dd, footer, header, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* Page basis */
+
+html {
+	font: 1em sans-serif;
+}
+
+body {
+	background-color: lightsteelblue;
+}
+
+#page {
+	position: relative;
+	background-color: white;
+	min-width: 300px;
+	max-width: 992px;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+/* Header and Footer */
+
+header,
+footer {
+	width: 100%;
+	background-color: steelblue;
+	text-align: center;
+	color: white;
+	padding: 1.5em;
+}
+
+header {
+	
+}
+
+header h1 {
+	font-size: 1.6em;
+	padding-bottom: 0.6em;
+}
+
+header h1 span {
+	white-space: nowrap;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+footer a {
+	white-space: nowrap;
+}
+
+/* Main block with list */
+
+main {
+	padding-top: 2em;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 6em; /* preventing footer overlay */
+}
+
+main h2 {
+	font-size: 1.4em;
+	color: rgb(50,110,160);
+	padding-bottom: 1.2em; 
+}
+
+main dd {
+	background-color: ghostwhite;
+	border: 1px solid lightgray;
+	border-top: none;
+	border-radius: 0 0 10px 10px;
+	padding: 2rem;
+	margin-bottom: 1em;
+}
+
+main dt a {
+	display: block;
+	background-color: rgb(70,130,180);
+	font-size: 1.2em;
+	border: 1px solid lightgray;
+	border-bottom: none;
+	border-radius: 10px 10px 0 0;
+	padding: 1em;
+	padding-left: 2rem;
+}
+
+main dt a:hover {
+	background-color: rgba(70,130,180,0.9);
+}
+
+/* Links */
+
+a:link {
+	color: wheat;
+}
+a:visited {
+	color: burlywood;
+}
+a:active,
+a:hover {
+	color: orange;
+}
+
